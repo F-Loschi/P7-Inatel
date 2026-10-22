@@ -1,0 +1,272 @@
+{
+  "main": {
+    "id": "274c82690a06569a",
+    "type": "split",
+    "children": [
+      {
+        "id": "77ebf615be4e3cb4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5296f6795594081",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C09/Dispositivos Gráficos - pt. 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dispositivos Gráficos - pt. 1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a50dda1bd51f0a46",
+    "type": "split",
+    "children": [
+      {
+        "id": "a986c98e6b574c34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e128197bb49773d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "c799c63b1996637a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "1e9ae47130fbef00",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200.5
+  },
+  "right": {
+    "id": "9b1bbadba2acf559",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8a7c9478fe21b26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "235c2c57f89f43d6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C09/Dispositivos Gráficos - pt. 2, 3 e 4.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Dispositivos Gráficos - pt. 2, 3 e 4"
+            }
+          },
+          {
+            "id": "99d60b7ac4458117",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C09/Dispositivos Gráficos - pt. 2, 3 e 4.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Dispositivos Gráficos - pt. 2, 3 e 4"
+            }
+          },
+          {
+            "id": "67e4bdb72afb1e32",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2c6a362068aa43ba",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b76ade8fd180bdd0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C09/Dispositivos Gráficos - pt. 2, 3 e 4.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Dispositivos Gráficos - pt. 2, 3 e 4"
+            }
+          },
+          {
+            "id": "5e5aa397188b48a4",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "c5b80a8678ee5b6e",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "b8b2e8aa0c828fec",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false
+    }
+  },
+  "active": "c5296f6795594081",
+  "lastOpenFiles": [
+    "C09/Dispositivos Gráficos - pt. 2, 3 e 4.md",
+    "C09/Dispositivos Gráficos - pt. 1.md",
+    "C24/Classificação.md",
+    "C24/Atividade Reposição Fuzzy   Felipe Silva Loschi.pdf",
+    "C24/Aprendizado por reforço e Q-Learning.md",
+    "C24/Análise Exploratória de Dados.md",
+    "C24/Algoritmo Genético.md",
+    "C24/Machine Learning.md",
+    "C24/Métricas de Classificação.md",
+    "C24/Pré-Processamento.md",
+    "C24/Redes Multilayer Perceptron.md",
+    "C09/Atividades/Revisão NP2.md",
+    "C24/Estudo NP2.md",
+    "C09/Atividades/Lista de Exercícios 4 - Cap. 15 - Sistemas de TV Digital.md",
+    "C09/Atividades/Lista de Exercícios 4 - Cap. 15 - Sistemas de TV Digital.pdf",
+    "C09/Atividades/Exercícios em sala sobre Áudio - Cap.13.md",
+    "C09/Atividades/Lista de Exercício 3 - Cap. 7 ao 14.md",
+    "C09/Atividades/Lista de Exercícios 2 - Cap.3 a 6 - Felipe Loschi.md",
+    "C09/Atividades/Lista de Exercício 3 - Cap. 7 ao 14.pdf",
+    "C09/Capítulo 9. Processamento de Imagens.md",
+    "C09/Capítulo 8. Dados Multimídia.md",
+    "C09/Capítulo 7. Multimídia e Hipermídia.md",
+    "C24/Reposição QLearning - Felipe Silva Loschi.pdf",
+    "C24/Fuzzy.md",
+    "H01/Módulo 5.md",
+    "H01/Módulo 6.md",
+    "C09/Atividades/Atividade de Reposição.pdf",
+    "C09/Atividades/Atividade de Reposição 1.pdf",
+    "C09/Atividades/Atividade de Reposição 2.pdf",
+    "Pasted image 20260618143240.png",
+    "Sem título 1.base",
+    "2026-06-18.md",
+    "C24/Reposição - Kmeans,kNN.md",
+    "C24/Reposição - Kmeans,kNN.pdf",
+    "C24/Reposição Kmeans-KNN.pdf",
+    "C24/Kmeans.md",
+    "C24/Listas/Exercício sala.md",
+    "Pasted image 20260416175815.png",
+    "Pasted image 20260409182427.png",
+    "Pasted image 20260409181216.png",
+    "Pasted image 20260329182702.png",
+    "Pasted image 20260326175445.png",
+    "Pasted image 20260319143630.png",
+    "Pasted image 20260319143454.png",
+    "Pasted image 20260319143201.png",
+    "Pasted image 20260319142033.png"
+  ]
+}

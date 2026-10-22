@@ -1,0 +1,36 @@
+## CNN:
+- Camadas convolucionais
+- CNN aprende os valores de filtros de convolução que compreendem o conteúdo das imagens
+- DNN é bom pra tabular, onde os exemplos são linhas e atributos colunas
+- CNN busca aprender relação entre atributos sem presumir estrutura espacial
+- DNN aprende padrão global e ignora localidade de referência ou espacial
+- Imagens têm uma estrutura espacial que pode ser explorada
+- Pixels vizinhos podem ser relacionados
+- Estruturas importantes dependem da organização espacial
+- DNNs tratam pixels distantes da mesma forma como tratam pixels próximos
+- DNN embaralha primeiro e depois aprende padrões globais, CNN aprende padrões locais, embaralha e depois passa para uma DNN que vai entender
+- Em uma CNN, cada neurônio é responsável por uma pequena região chamada de campo receptivo, definido por uma matriz(2D ou 3D) chamada de filtro de convolução ou kernel, que permite detectar padrões locais
+- Estacionariedade: mesmo padrão pode aparecer em qualquer posição da imagem
+- Imagens possuem uma estrutura hierárquica, padrões simples formam padrões complexos
+- Camada de convolução: responsável por extrair características da imagem
+- Aplica filtros sobre a imagem, esses filtros multiplicam valores locais da imagem, soma resultados e geram saída
+- Processo é repetido por toda a imagem até gerar um mapa de características(feature map)
+- Ideia de usar filtros que detectam características que fazem um objeto ser diferente de outro é baseado na ideia de como os neurônios do córtex visual funciona
+- Kernel é um tensor responsável por detectar características específicas em uma imagem
+- Filtros detectam padrões
+- Se a imagem tiver 3 dimensões, kernel também terá, ele somará todos os resultados e gerará uma saída de uma única dimensão
+- Função de ativação é aplicada sobre o feature map é introduz não linearidade, normalmente é usado ReLU para evitar o desaparecimento do gradiente
+- Camada de Pooling: Aplicada após uma camada de convolução, subamostra a entrada, reduzindo o tamanho do mapa de características com o objetivo de reduzir carga computacional, o uso de memória e o número de parâmetros, limitando o risco de overfitting
+- Informações da borda podem ser pouco utilizadas, mesmo que importantes, onde entra a técnica de Padding, ou preenchimento, que é responsável por preencher o mapa com valores nulos ao redor para que as bordas não sejam mais a borda, fazendo com que sejam mais levadas em consideração
+- Camada de Flatten: Achata o 3D em um vetor 1D para as camadas densas, que só trabalham com vetores
+- Evitar overfitting:
+	- Data augmentation: Introduzir a mesma imagem mas com edição, o que faz com que ele tenha que aprender com o mesmo dado disposto de maneiraas diferentes
+	- Dropout: Introduz uma probabilidade de o neurônio desligar, o que faz com que a rede não dependa fortemente dele
+	- Transfer Learning: Toma como ponto de partida um outro modelo que já esteja treinado até um certo ponto
+## RNN
+- Usados para coisas sequenciais, onde há dependência temporal
+- MLP não armazena informação de estados anteriores, cada entrada é tratada de forma independente e CNN compartilha as mesmas limitações, mas com a diferença de que ele modela relações espaciais
+- Possui um laço de realimentação
+- Mantém um estado interno que armazena informações observadas até o momento
+- RNN são projetadas para processar sequências de comprimento variável
+- Pesos são atualizados usando gradiente descendente, função de erro é avaliada com base no erro cometido pela rede no conjunto de treinamento, derivada da função de perda é retropropagada através da rede e os pesos são ajustados até que um número máximo de épocas sejam atingidas ou a função de perda pare de diminuir.

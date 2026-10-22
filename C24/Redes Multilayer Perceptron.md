@@ -1,0 +1,65 @@
+- Modelos de ML mais usados
+- Subárea de ML que engloba o Deep Learning
+- Camadas de entradas, camadas escondidas e camadas de saída
+- Modelo com múltiplas entradas, com várias camadas, onde cada uma delas contém vários neurônios interconectados que geram uma ou mais saídas
+- Simula um neurônio
+- Capaz de realizar tarefas de aprendizado de máquina com grande versatilidade e eficácia
+- Aproximador universal, aproxima qualquer grau
+- RNAs são representadas como sistemas de **neurônios(ou nós interconectados) interconectados**, **organizados em camadas**, que aprendem, **a partir de dados**, uma **função que relaciona entradas e saídas**
+- Modelo de caixa preta, quando ele erra, você não consegue ver como ele chegou na conclusão para errar
+- Neurônio biológico
+	- Neurônio possui mecanismo eletroquímico para realizar transmissão de sinais elétricos ao longo do sistema nervoso
+	- Dendritos, axônio e corpo celular, também chamado de soma
+	- Dendritos recebem estímulos vindos de outros neurônio e levam ao corpo celular
+	- Corpo celular realiza integração dos estímulos e gera impulsos caso um limiar seja ultrapassado
+	- Axônio envia impulsos a outros neurônios através de seus terminais
+	- Neurônios se comunicam por sinapses
+	- Sinapses são os pontos de contato entre dendritos de um neurônio e os terminais do axônio de outros
+	- Recebe estímulos elétricos -> integrados no corpo celular -> Se exceder limiar, gera impulso
+Para entender neurônio artificial
+- ![[Pasted image 20260416175815.png]]
+- b = Bias é o limiar de ativação
+- Estímulos = x
+- São multiplicados pelos pesos sinápticos = w
+- Pesos sinápticos dão a força de cada conexão e se ela é excitatória ou inibitória
+- No início, a função de ativação era do tipo tudo-ou-nada, ativava ou não
+- Com o decorrer foram propostas outras funções com características diferentes
+- Objetivo de uma rede neural é encontrar os valores ideais dos pesos de todos os neurônios
+- Processo de otimização iterativo chamado de retropropagação do erro, visando minimizar o erro entre a saída da rede e os valores de saída esperados
+- Camada de entrada é o ponto de transferência dos atributos para dentro da rede
+	- Não tem peso
+	- Pode ser usada para aplicar transformações de dimensão aos dados de entrada
+- Cada camada, exceto a de entrada, possui um ou mais neurônios
+- Camadas intermediárias são chamadas de ocultas
+---
+Redes neurais artificiais
+- Chamada de rede densamente conectada e de alimentação direta
+- Dados fluem através da rede em uma única direção
+- Propriedades de uma rede neural são determinadas por sua arquitetura
+- A arquitetura é definida
+	- Como os neurônios estão conectados
+	- Quantidade de neurônios
+	- Quantidade de camadas escondidas
+	- Função de ativação
+	- etc
+- RNAs são o coração do deep learning
+- Profundo vem do fato de essas redes poderem possuir muitas camadas ocultas
+- Quando temos duas ou mais camadas ocultas, podemos chamar de redes neurais profundas
+- Redes neurais têm a capacidade de aproximar funções altamente não-lineares
+- A capacidade depende da arquitetura
+- Portanto, assim como polinômio, que podem aproximar qualquer tipo de função devido a seus graus de liberdade, as redes neurais podem fazer o mesmo, bastando apenas que encontremos sua complexidade ideal, ou seja, sua arquitetura
+--- 
+Como prendem
+- Aprendem ajustando os pesos sinápticos e de bias para reduzir erro
+- Feito por algoritmo baseado em gradiente descendente
+- Objetivo é calcular o quanto cada peso da rede contribui para o erro e ajustá-lo de forma a minimizar
+- Rede faz predições com os pesos atuais
+- Calcula o erro entre a saída da rede e os rótulos
+- Propaga o erro para trás através das camadas da rede para atualizar os pesos usando o gradiente descendente
+- Rede prediz -> mede o erro -> corrige os pesos
+- --
+Superfície de erro de redes neurais
+- Combinação de vários nós com funções de ativação não-lineares
+- Altamente irregulares
+- Irregularidades causam treinamento mais lento, instabilidade numérica, solução diferentes para o mesmo problema
+- 

@@ -1,0 +1,38 @@
+- Não existe uma única definição para o que inteligência e o que é inteligência artificial
+- Machine Learning != IA
+- Teste de Turing: Turing propôs um teste que visava ver se as máquinas conseguiam imitar o pensamento, testando se elas conseguiam enganar um outro humano através de um jogo
+- O computador precisa ter as capacidades de:
+	- PLN
+	- Representação de conhecimento: armazenar o que sabe ou ouve
+	- Raciocínio automatizado
+	- Aprendizado de máquina
+- 1956 nasceu o termo IA através de uma conferência
+- 1975-1980: Inverno da IA
+	- Prometeu de mais e entregou de menos
+	- A capacidade estava muito abaixo do que era esperado
+	- Não haviam dados pra treinar alguma coisa
+	- A pesquisa perdeu a visibilidade e apoio
+- 2012: Big Bang do deep learning com o AlexNet
+	- AlexNet conseguiu reconhecer animais muito bem em uma competição internacional, o que trouxe de volta a visibilidade
+- Gargalos do avanço de IA:
+	- Consumo no sentido de espaço e energia
+	- Muito dado e pouca informação
+- Lógica Fuzzy: mexe com incertezas
+- Paradigmas da IA: 
+	- Evolucionista: Metáfora da natureza
+		- Algoritmo genético
+		- Vida artificial
+	- Conexionista(Aprendizado de máquina): Metáfora cerebral
+		- Rede neural
+	- Simbólica: Metáfora linguística
+		- Sistemas especialistas
+		- Agentes
+	- Estatística/Probabilística:
+		- Redes Bayesianas
+		- Sistemas difusos(fuzzy)
+- Onde aplicar:
+	- Problemas que não possuem solução analítica praticável
+	- Problemas que possuem solução analítica
+	- Problemas que o ser-humano é capaz de resolver: jogar xadrez, reconhecimento de voz, etc
+	- ***Não matar uma formiga com um canhão***
+- 

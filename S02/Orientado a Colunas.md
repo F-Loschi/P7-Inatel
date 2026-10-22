@@ -1,0 +1,9 @@
+- Importante aqui são as colunas, não as linhas 
+- O atributo é mais importante que o dado em si
+- Nasce com a ideia de distribuir as informações
+- Oferece mecanismos de replicação de dados entre os sistemas distribuídos
+- Nós são P2P(Peer-to-Peer), ou seja, não existe um mestre, todos estão no mesmo nível hierárquico
+- Por causa do fator de partição, cada nó não tem apenas dados sobre si, mas dados dos n nós dados pelo processo de partição
+- Chave de partição não pode agrupar nem muita coisa nem pouca coisa, deve ser algo no meio termo, como o departamento de uma empresa
+- "Store together what you retrieve together"
+- 

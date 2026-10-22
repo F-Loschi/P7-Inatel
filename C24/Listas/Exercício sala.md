@@ -1,0 +1,16 @@
+1. C (CERTO)
+2. A (CERTO)
+3. A (CERTO)
+4. C (CERTO)
+5. B (CERTO)
+6. A (CERTO)
+7. B (CERTO)
+8. B (CERTO)
+9. C (CERTO)
+10. C (CERTO)
+11. C (CERTO)
+12. C
+13. C
+14. B
+15. B (?)
+16. 

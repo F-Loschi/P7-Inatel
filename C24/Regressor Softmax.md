@@ -1,0 +1,16 @@
+- Usado quando queremos classificar mais de duas classes diferentes.
+- Reconhecimento de dígitos, classificação de texto, classificação de sentimento
+- Regressão softmax = regressão logística multinomial
+	- Saídas interpretadas como as probabilidades de uma variável categórica dado os atributos e pesos
+- Prediz apenas **uma** classe por classificação, logo, as classes devem ser **mutuamente exclusivas**
+- Possui uma função hipótese de classificação e consequentemente uma função discriminante para cada classe q.
+- Mapeia a saída através da função softmax
+- Transforma um vetor com valores de funções discriminantes em uma distribuição de probabilidades
+- Garante que as saídas estejam no intervalo entre 0 e1, e a soma de todas as saídas seja igual a 1, tornando-as interpretáveis como uma função massa de probabilidade multinomial
+- Atribui uma probabilidade condicional a cada classe onde a soma das probabilidades deve ser igual a Q
+- Para atingir o objetivo, devemos definir uma função de erro a ser minimizada
+- Usamos a generalização da função da entropia cruzada, chamada de entropia cruzada categórica
+	- Continuar escrevendo sobre 1{.} em que 1{condição verdadeira}=1 e 1{condição falsa=0}
+- A função mede a diferença entre as distribuições de probabilidade preditas pelo modelo e as distribuições dos rótulos das classes
+- Objetivo é minimizar a entropia cruzada categórica, ou seja, fazer com que as probabilidades previstas pelo modelo se aproximem ao máximo dos rótulos dos exemplos
+- A função de erro não é linear e, portanto, não existe uma forma fechada para encontrar os pesos, mas ela é convexa e contínua, portanto, podemos usar o gradiente descendente

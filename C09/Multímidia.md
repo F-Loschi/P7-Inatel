@@ -1,0 +1,22 @@
+- Definição: Aglomerado de mídias estáticas e/ou dinâmicas
+- Linear: Início -> Meio -> Fim
+	- Sequencial: começo e fim bem estabelecidos
+	- Controlada
+	- Passiva
+	- Focada
+	- Exemplo: power point, retroprojeção, filme, seriado, etc.
+	- Vantagem: 
+		- Foco em tópico específico
+		- Ordem lógica
+	- Desvantagem
+		- Pouca ou nenhuma interatividade
+		- Pode se tornar entediante
+- Não-Linear: não começa até o usuário falar pra onde vai
+	- Participação é crucial
+	- Website, motor de busca, menu de dvd, canal do youtube, streaming
+	- Vantagem:
+		-  Usuário tem controle total
+	- Desvantagem:
+		- Usuário tem controle total
+		- Pode ser mal organizada se mal projetada
+		- 

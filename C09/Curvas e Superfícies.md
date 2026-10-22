@@ -1,0 +1,23 @@
+## Curvas
+- Representação bidimensional
+- Aplicações:
+	- Projetos de automóveis
+	- Animações digitais
+	- Objetos sintéticos e visualização cientifica
+- Como gerar:
+	- Interpolação - Curva passa por todos os pontos
+	- Ajuste - curva que melhor se ajusta aos pontos, ainda que não passe por todos
+- **Ordem de continuidade**: a continuidade de ordem 0 indica que a curva se encontra em um ponto de ordem 1, indica que há uma continuidade na derivada primeira e assim por diante;
+- Representação: Conjunto de Pontos(interpolação e aproximação(ajuste)) e representação analítica(usa equações matemáticas - posições exatas e fiéis)
+	- Analítica:
+		- Não-Paramétrica: posição em y é função de x(vice-versa)
+		- Paramétrica: usa um parâmetro para definir as coordenadas da curva
+			- Curva de Hermite: Representada por 2 pontos e 2 retas tangentes(Indicam a direção e sentido da reta)
+			- Curva de Bézier: mesma lógica cúbica, mas substitui vetores  tangentes por ponto de controle(por aproximação dos pontos que definem indiretamente a direção e curvatura nos extremos da curva);
+			- Splines: curvas suaves definidas por pontos de controle
+## Superfícies
+- Representação tridimensional
+- Superfície de revolução: geradas pela rotação de uma curva em tono de um eixo
+- Swepping(Varredura): geração de superfície pelo movimento/ deslocamento de uma curva ao longo de um caminho
+- Interpolação bilinear: geração de superfícies a partir dos pontos ou curvas que definem seus limites
+- Interpolação trilinear: apllicação de 3 curvas de fronteira(u, v e w)

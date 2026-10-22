@@ -1,0 +1,26 @@
+- Aprendizado supervisionado
+-  Algoritmo não-paramétrico
+	- Não há modelo a ser treinado
+	- Não faz qualquer suposição a respeito da distribuição dos dados
+- Usa diretamente os exemplos de treinamento para tomar decisão
+- Única suposição é uma medida de distância entre dois exemplos que possa ser calculada
+- Precisa que todos os exemplos de treinamento sejam armazenados na memória
+- Em seguida, dado um exemplo inédito, a saída para este exemplo dependerá dos rótulos associados aos k vizinhos mais próximos
+- Em **classificação**, a classe mais frequente dos k vizinhos será a classe da amostra(voto majoritário)
+- Em **regressão**, os valores associados aos k vizinhos mais próximos serão usados para calcular a média ou valor ponderado
+- k é um hiperparâmetro que pode ser otimizado de qualquer forma
+- KNN como algoritmo competitivo: ideia de que o vizinhos competem entre si para ditar o que a amostra será
+- KNN como lazy learning: não constrói um modelo até o instante em que uma predição é solicitada
+- KNN segue o paradigma de aprendizado baseado em exemplos
+- Todos os dados de treinamento precisam ser armazenados e consultados para se identificar o ***k*** vizinhos mais próximos
+- Sensibilidade à dimensionalidade: desempenho afetado quando o conjunto de dados possui alta dimensionalidade
+	- Em espaços de alta dimensionalidade, a noção de proximidade entre exemplos pode se tornar menor significativa, levando a resultados menos precisos
+	- A medida que as dimensões aumentam, os vizinhos ficam mais esparsos, dificultando a busca por vizinhos próximos significativos
+- kNN sensível a atributos com escalas diferentes
+## Métricas de distância
+- Métrica de distância fornece a distância entre os elementos de um conjunto
+- Se a distância é igual a zero, os elementos são equivalentes, caso contrário são diferentes
+### Distância de Minkowski
+- Métrica definida no espaço vetorial normado(espaço vetorial no qual uma norma vetorial é definida) que satisfaz algumas propriedades
+	- Espaço onde podemos medir o tamanho ou magnitude de vetores
+- 

@@ -1,0 +1,3 @@
+- Ramo dos algoritmos evolucionários
+- Podem ser consideradas técnicas heurísticas de otimização global
+- 
